@@ -1,6 +1,10 @@
 # TCC ClickJacking
 A proof of concept for a ClickJacking attack on macOS.
 
+<p align="center">
+<img src="./resources/clickjacking.jpg" />
+</p>
+
 ## Why?
 TCC (Transparency, Consent, and Control) restricts and control application access to certain features.
 This can include things such as camera, microphone, location services, contacts, photos, Downloads/Desktop/Documents folders, and a bunch more.
