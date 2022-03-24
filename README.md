@@ -18,7 +18,7 @@ ClickJacking is a fairly simple attack that can trick most users into giving awa
 $: swift ./tcc-clickjacking.swift
 ```
 
-You should now see an immovable transparent window with an "OK" button. Behind it, will be the TCC consent dialog, perfectly positioned so that clicking on the visible "OK" button would give the application access to your TCC database, and therefore everything.
+You should now see an immovable transparent window with an "OK" button. Behind it will be the TCC consent dialog, perfectly positioned so that clicking on the visible "OK" button would give the application access to your TCC database.
 
 ## Legal Disclaimer
 Usage of this code for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
