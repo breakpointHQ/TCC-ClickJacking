@@ -68,7 +68,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         button.layer?.borderWidth = 0
         button.layer?.cornerRadius = 10
         button.font = .systemFont(ofSize: 14)
-        button.frame = CGRect(origin: NSPoint(x: 154, y: 26), size: CGSize(width: 110, height: 30))
+        button.frame = CGRect(origin: NSPoint(x: 154, y: 36), size: CGSize(width: 110, height: 30))
         window.contentView?.addSubview(button)
     }
 
