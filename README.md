@@ -19,7 +19,8 @@ ClickJacking is a fairly simple attack that can trick most users into giving awa
 2. Clone this repository and navigate to the cloned directory.
 3. Open the `Terminal` app, and execute:
 ```sh
-$: swift ./tcc-clickjacking.swift
+$: swiftc ./tcc-clickjacking.swift
+$: ./tcc-clickjacking
 ```
 
 You should now see an immovable transparent window with an "OK" button. Behind it will be the TCC consent dialog, perfectly positioned so that clicking on the visible "OK" button would give the application access to your TCC database.
