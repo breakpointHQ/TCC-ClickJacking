@@ -4,5 +4,5 @@ tell application "Finder"
 	set tccDirectory to applicationSupportDirectory & "com.apple.TCC/TCC.db"
 	duplicate file (POSIX file tccDirectory as alias) to folder (POSIX file "/tmp/" as alias) with replacing
 	# close our fake popup
-	do shell script "/bin/bash -c 'pkill swift-frontend' &"
+	do shell script "/bin/bash -c 'pkill tcc-clickjacking' &"
 end tell
